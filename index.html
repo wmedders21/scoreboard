@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Score Board</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="home">
+        <h1>HOME</h1>
+        <p id="home-score"></p>
+        <div>
+          <button onclick="awardHome(1)">+1</button>
+          <button onclick="awardHome(2)">+2</button>
+          <button onclick="awardHome(3)">+3</button>
+        </div>
+      </div>
+      <div id="away">
+        <h1>AWAY</h1>
+        <p id="away-score"></p>
+        <div>
+          <button onclick="awardAway(1)">+1</button>
+          <button onclick="awardAway(2)">+2</button>
+          <button onclick="awardAway(3)">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin:2%">
+      <div>
+        <button onclick="reset()">reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

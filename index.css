@@ -1,0 +1,42 @@
+.container {
+  display:flex;
+  justify-content: space-around;
+}
+
+body {
+  margin: 0%;
+  background-color: #0369A1
+}
+
+h1 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: cursed_timer_ulilregular;
+  text-align:center;
+  font-size: 250%;
+  color: red;
+  background-color: black;
+  padding: 20%;
+  border-radius: 20%;
+}
+
+button {
+  font-family: cursed_timer_ulilregular;
+  color: white;
+  border-color: #7DD3FC;
+  border-radius: 20%;
+  background-color: #0C4A6E;
+}
+
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('font/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('font/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
