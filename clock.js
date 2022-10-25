@@ -15,5 +15,5 @@ function startTime() {
      clearInterval(x);
      document.getElementById("count-down").innerHTML = "00:00";
    }
-  }, 1)
+ }, 1000)
 }
