@@ -14,7 +14,17 @@
           <button onclick="awardHome(1)">+1</button>
           <button onclick="awardHome(2)">+2</button>
           <button onclick="awardHome(3)">+3</button>
+          <div style="display:grid;justify-content:space-around">
+            <button onclick="deductHome()">-1</button>
+          </div>
         </div>
+      </div>
+      <div id="clock" style="text-align:center">
+        <p style="width:100%" id="count-down">00:00</p>
+        <div style="text-align:center">
+          <button onclick="startTime()">Start</button>
+        </div>
+        <script src="clock.js"></script>
       </div>
       <div id="away">
         <h1>AWAY</h1>
@@ -23,6 +33,9 @@
           <button onclick="awardAway(1)">+1</button>
           <button onclick="awardAway(2)">+2</button>
           <button onclick="awardAway(3)">+3</button>
+          <div style="display:grid;justify-content:space-around">
+            <button onclick="deductAway()">-1</button>
+          </div>
         </div>
       </div>
     </div>

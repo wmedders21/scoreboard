@@ -14,6 +14,20 @@ function awardAway(points) {
   document.getElementById("away-score").textContent = awayScore
 }
 
+function deductHome() {
+  if (homeScore > 0) {
+    homeScore -= 1
+    document.getElementById("home-score").textContent = homeScore;
+  }
+}
+
+function deductAway() {
+  if (awayScore > 0) {
+    awayScore -= 1
+    document.getElementById("away-score").textContent = awayScore;
+  }
+}
+
 function reset() {
   homeScore = 0
   awayScore = 0

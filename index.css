@@ -1,6 +1,6 @@
 .container {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 body {
@@ -17,10 +17,10 @@ h1 {
 p {
   font-family: cursed_timer_ulilregular;
   text-align:center;
-  font-size: 250%;
+  font-size: 200%;
   color: red;
   background-color: black;
-  padding: 20%;
+  padding: 10%;
   border-radius: 20%;
 }
 
