@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale=1">
     <link rel="stylesheet" href="index.css">
     <title>Score Board</title>
   </head>
@@ -10,38 +10,33 @@
       <div id="home">
         <h1>HOME</h1>
         <p id="home-score"></p>
-        <div>
+        <div style="text-align:center">
           <button onclick="awardHome(1)">+1</button>
           <button onclick="awardHome(2)">+2</button>
-          <button onclick="awardHome(3)">+3</button>
-          <div style="display:grid;justify-content:space-around">
-            <button onclick="deductHome()">-1</button>
-          </div>
+          <button onclick="awardHome(3)">+3</button><br>
+          <button onclick="deductHome()">-1</button>
         </div>
       </div>
-      <div id="clock" style="text-align:center">
-        <p style="width:100%" id="count-down">15:00</p>
-        <div style="text-align:center">
-          <button id="start-stop-btn">Start/Stop</button>
+      <div class="container">
+        <div style=text-align:center>
+          <h4>HIGH SCHOOL BASKETBALL SCOREBOARD</h4>
+          <p id="count-down">08:00</p>
+          <div>
+            <button id="start-stop-btn">Start/Stop</button><br><br>
+            <button onclick="reset()">reset game</button>
+          </div>
         </div>
         <script src="clock.js"></script>
       </div>
       <div id="away">
         <h1>AWAY</h1>
         <p id="away-score"></p>
-        <div>
+        <div style="text-align:center">
           <button onclick="awardAway(1)">+1</button>
           <button onclick="awardAway(2)">+2</button>
-          <button onclick="awardAway(3)">+3</button>
-          <div style="display:grid;justify-content:space-around">
-            <button onclick="deductAway()">-1</button>
-          </div>
+          <button onclick="awardAway(3)">+3</button><br>
+          <button onclick="deductAway()">-1</button>
         </div>
-      </div>
-    </div>
-    <div class="container" style="margin:2%">
-      <div>
-        <button onclick="reset()">reset</button>
       </div>
     </div>
     <script src="index.js"></script>

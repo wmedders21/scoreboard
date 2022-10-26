@@ -29,8 +29,9 @@ function deductAway() {
 }
 
 function reset() {
-  homeScore = 0
-  awayScore = 0
-  document.getElementById("home-score").textContent = homeScore
-  document.getElementById("away-score").textContent = awayScore
+  homeScore = 0;
+  awayScore = 0;
+  document.getElementById("home-score").textContent = homeScore;
+  document.getElementById("away-score").textContent = awayScore;
+  resetClock();
 }

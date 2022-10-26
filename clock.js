@@ -1,5 +1,5 @@
 var ssBtn = document.getElementById("start-stop-btn")
-var minutes = 14;
+var minutes = 7;
 var seconds = 59;
 var x;
 var time;
@@ -26,6 +26,15 @@ function startTime() {
 function stopTime() {
   clearInterval(x)
   document.getElementById("count-down").innerHTML = time;
+  ssBtn.removeEventListener("click", stopTime);
+  ssBtn.addEventListener("click", startTime);
+}
+
+function resetClock() {
+  clearInterval(x)
+  minutes = 7;
+  seconds = 59;
+  document.getElementById("count-down").innerHTML = "08:00";
   ssBtn.removeEventListener("click", stopTime);
   ssBtn.addEventListener("click", startTime);
 }
