@@ -3,11 +3,11 @@ var minutes = 7;
 var seconds = 59;
 var x;
 var time;
-var whoosh = new Audio('audio/whoosh.wav');
-var buzzer = new Audio('audio/buzzer.wav');
-var click = new Audio('audio/click.wav');
-var click2 = new Audio('audio/click_2.wav');
-var tick = new Audio('audio/tick.wav');
+var whoosh = new Audio('audio/whoosh.mp3');
+var buzzer = new Audio('audio/buzzer.mp3');
+var click = new Audio('audio/click.mp3');
+var click2 = new Audio('audio/click_2.mp3');
+var tick = new Audio('audio/tick.mp3');
 
 ssBtn.addEventListener("click", startTime);
 
