@@ -12,9 +12,9 @@ function startTime() {
   x = setInterval(function() {
     time = document.getElementById("count-down").innerHTML = String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
     seconds -= 1
-    if (seconds == 0) {
-      minutes -= 1;
+    if (seconds < 0) {
       seconds = 59;
+      minutes -= 1;
     }
     if (minutes == -1) {
      clearInterval(x);
