@@ -9,6 +9,7 @@
  - Dynamic button with add/remove Event Listener
  - Create a countdown timer by using `setInterval()`
  - More practice with JS, and HTML
+ - Trigger audio on events
 
 ## To Use:
  - Increment the score by clicking the appropriate button each time a team scores.
