@@ -1,19 +1,31 @@
+var ssBtn = document.getElementById("start-stop-btn")
+var minutes = 14;
+var seconds = 59;
+var x;
+var time;
+
+ssBtn.addEventListener("click", startTime);
 
 function startTime() {
-  var minutes = [...Array(15).keys()].reverse()
-  var seconds = [...Array(60).keys()].reverse()
-  var minuteCount = 0
-  var secondCount = 0
-  var x = setInterval(function() {
-    document.getElementById("count-down").innerHTML = String(minutes[minuteCount]).padStart(2, '0') + ":" + String(seconds[secondCount]).padStart(2, '0');
-    secondCount += 1
-    if (secondCount == 59) {
-      minuteCount += 1;
-      secondCount = 0;
+  ssBtn.removeEventListener("click", startTime);
+  ssBtn.addEventListener("click", stopTime);
+  x = setInterval(function() {
+    time = document.getElementById("count-down").innerHTML = String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
+    seconds -= 1
+    if (seconds == 0) {
+      minutes -= 1;
+      seconds = 59;
     }
-    if (minuteCount == 15) {
+    if (minutes == -1) {
      clearInterval(x);
      document.getElementById("count-down").innerHTML = "00:00";
    }
  }, 1000)
+}
+
+function stopTime() {
+  clearInterval(x)
+  document.getElementById("count-down").innerHTML = time;
+  ssBtn.removeEventListener("click", stopTime);
+  ssBtn.addEventListener("click", startTime);
 }
