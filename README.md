@@ -1,10 +1,13 @@
-# Basketball Scoreboard
+# High School Basketball Scoreboard
 
 ### This is a simple Javascript, HTML, and CSS project from Scrimba
 
 ## To Use:
  - Increment the score by clicking the appropriate button each time a team scores.
  - There are options for free throws, field goals, and 3-pointers.
- - You can reset back to zero after the game by clicking the 'reset' button.  
+ - Scoring errors can be adjusted with the `-1` button. 
+ - Start a quarter and stop for time-outs with the `start/stop` button.
+ - You can reset the scores and clock after the game by clicking the `reset` button.  
 
-<img src="https://user-images.githubusercontent.com/93014155/197858083-daa105f1-9d3d-421c-8c17-385fefda9b69.png" width="50%">
+<img src="https://user-images.githubusercontent.com/93014155/197955159-f5f4cce8-738c-4346-b0f1-70831f951f30.png" width="50%">
+
