@@ -4,6 +4,12 @@
 
 ### This is a simple Javascript, HTML, and CSS project from Scrimba
 
+## Learning Goals Achieved:
+ - Styling: CSS Flex, backdrop blur, custom font-face
+ - Dynamic button with add/remove Event Listener
+ - Create a countdown timer by using `setInterval()`
+ - More practice with JS, and HTML
+
 ## To Use:
  - Increment the score by clicking the appropriate button each time a team scores.
  - There are options for free throws, field goals, and 3-pointers.
