@@ -1,4 +1,6 @@
 # High School Basketball Scoreboard
+[Click here for the deployed app](https://wmedders21.github.io/scoreboard)
+
 
 ### This is a simple Javascript, HTML, and CSS project from Scrimba
 
