@@ -9,5 +9,5 @@
  - Start a quarter and stop for time-outs with the `start/stop` button.
  - You can reset the scores and clock after the game by clicking the `reset` button.  
 
-<img src="https://user-images.githubusercontent.com/93014155/197955159-f5f4cce8-738c-4346-b0f1-70831f951f30.png" width="50%">
+<img src="https://user-images.githubusercontent.com/93014155/197955159-f5f4cce8-738c-4346-b0f1-70831f951f30.png" width="70%">
 
