@@ -1,6 +1,7 @@
 # High School Basketball Scoreboard
 [Click here for the deployed app](https://wmedders21.github.io/scoreboard)
 
+BUG: *Some features don't work in Safari! Use Chrome or Edge*
 
 ### This is a simple Javascript, HTML, and CSS project from Scrimba
 
